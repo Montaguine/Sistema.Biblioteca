@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Livro.Enums
+namespace Livros.Enums
 {
-    internal enum EstadoLivro
+    public enum EstadoLivro
     {
+        Disponivel = 1,
+        Reservado = 2,
+        Emprestado = 3,
+        Danificado = 4,
+        Perdido = 5,
+        AguardandoAprovacao = 6
     }
 }

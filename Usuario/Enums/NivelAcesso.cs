@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Usuario.Enums
+namespace Usuarios.Enums
 {
-    internal enum NivelAcesso
+    public enum NivelAcesso
     {
+        Diretor = 1,
+        Atendente = 2,
+        Professor = 3,
+        Estudante = 4
     }
 }

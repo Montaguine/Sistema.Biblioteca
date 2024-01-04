@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Emprestimos
 {
-    public enum EstadoEmprestimo
+    public enum EstadoReserva
     {
+        SemReserva = 0,
         Cancelado = 1,
-        Aprovado = 2,
-        AguardandoDevolucao = 3,
-        Finalizado = 4,
-        FinalizadoComMulta = 5
+        AguardandoAprovacao = 2,
+        Aprovado = 3
     }
 }

@@ -4,12 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{0E925C61-A6ED-46B6-A22B-3E1379920E9E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41040F32-6D70-449C-B949-30681714A053} = {41040F32-6D70-449C-B949-30681714A053}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGerenciamento", "SistemaGerenciamento\SistemaGerenciamento.csproj", "{2B5B629E-2DA1-4954-947F-3EEC5C6C6979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuario", "Usuario\Usuario.csproj", "{41040F32-6D70-449C-B949-30681714A053}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuarios", "Usuario\Usuarios.csproj", "{41040F32-6D70-449C-B949-30681714A053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livro", "Livro\Livro.csproj", "{96D2667C-9657-4A62-94CF-BE5CB17CD22E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livros", "Livro\Livros.csproj", "{96D2667C-9657-4A62-94CF-BE5CB17CD22E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeitorArquivos", "JSON-Parser\LeitorArquivos.csproj", "{B5038652-DFC1-4929-B8E4-F6CA4A50D41E}"
 EndProject

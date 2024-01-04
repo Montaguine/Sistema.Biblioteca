@@ -1,4 +1,5 @@
 ﻿using UI.LogicaMenu;
+using Usuarios.Users;
 
 namespace UI
 {
@@ -15,19 +16,19 @@ namespace UI
             
             if(user != null)
             {
-                if(user.NivelAcesso == 1)
+                if(user.nivelAcesso == Usuarios.Enums.NivelAcesso.Diretor)
                 {
                     MenuDiretor.Menu(user);
                 }
-                if(user.NivelAcesso == 2)
+                if(user.nivelAcesso == Usuarios.Enums.NivelAcesso.Atendente)
                 {
                     MenuAtendente.Menu(user);
                 }
-                if(user.NivelAcesso == 3)
+                if(user.nivelAcesso == Usuarios.Enums.NivelAcesso.Professor)
                 {
                     MenuProfessor.Menu(user);
                 }
-                if(user.NivelAcesso == 4)
+                if(user.nivelAcesso == Usuarios.Enums.NivelAcesso.Estudante)
                 {
                     MenuEstudante.Menu(user);
                 }

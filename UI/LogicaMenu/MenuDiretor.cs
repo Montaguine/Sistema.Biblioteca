@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Usuarios.Users;
 
 namespace UI.LogicaMenu
 {
@@ -11,7 +12,7 @@ namespace UI.LogicaMenu
         public static void Menu(Usuario diretor)
         {
             Console.WriteLine($"Logado como: {diretor.nome}");
-            Console.WriteLine($"Privilegio: {diretor.NivelAcesso}");
+            Console.WriteLine($"Privilegio: {diretor.nivelAcesso}");
             Console.WriteLine("\n\n1 - Listar Livros");
             Console.WriteLine("2 - Verificar disponibilidade");
             Console.WriteLine("3 - Solicitar livro");

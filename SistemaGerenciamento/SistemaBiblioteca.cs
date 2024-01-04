@@ -1,6 +1,6 @@
 ﻿namespace SistemaGerenciamento
 {
-    public class Class1
+    public class SistemaBiblioteca
     {
 
     }
